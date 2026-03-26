@@ -1,0 +1,162 @@
+[
+  {
+    "missionId": "daily_first_bet",
+    "address": "0x45fab11f7f5d870e5ee01c7536e0289059d80d18060e79839ef8f2bc3e0b2bb5",
+    "progress": 4,
+    "completed": true,
+    "claimed": true,
+    "periodKey": "2026-03-26"
+  },
+  {
+    "missionId": "daily_consistent_crewmate",
+    "address": "0x45fab11f7f5d870e5ee01c7536e0289059d80d18060e79839ef8f2bc3e0b2bb5",
+    "progress": 1,
+    "completed": false,
+    "claimed": false,
+    "periodKey": "2026-03-26"
+  },
+  {
+    "missionId": "daily_risk_taker",
+    "address": "0x45fab11f7f5d870e5ee01c7536e0289059d80d18060e79839ef8f2bc3e0b2bb5",
+    "progress": 0,
+    "completed": false,
+    "claimed": false,
+    "periodKey": "2026-03-26"
+  },
+  {
+    "missionId": "daily_comeback",
+    "address": "0x45fab11f7f5d870e5ee01c7536e0289059d80d18060e79839ef8f2bc3e0b2bb5",
+    "progress": 0,
+    "completed": false,
+    "claimed": false,
+    "periodKey": "2026-03-26"
+  },
+  {
+    "missionId": "daily_vote",
+    "address": "0x45fab11f7f5d870e5ee01c7536e0289059d80d18060e79839ef8f2bc3e0b2bb5",
+    "progress": 10,
+    "completed": true,
+    "claimed": true,
+    "periodKey": "2026-03-26"
+  },
+  {
+    "missionId": "weekly_dedicated",
+    "address": "0x45fab11f7f5d870e5ee01c7536e0289059d80d18060e79839ef8f2bc3e0b2bb5",
+    "progress": 1,
+    "completed": false,
+    "claimed": false,
+    "periodKey": "2026-W13"
+  },
+  {
+    "missionId": "weekly_whale",
+    "address": "0x45fab11f7f5d870e5ee01c7536e0289059d80d18060e79839ef8f2bc3e0b2bb5",
+    "progress": 200000000,
+    "completed": false,
+    "claimed": false,
+    "periodKey": "2026-W13"
+  },
+  {
+    "missionId": "weekly_streak",
+    "address": "0x45fab11f7f5d870e5ee01c7536e0289059d80d18060e79839ef8f2bc3e0b2bb5",
+    "progress": 0,
+    "completed": false,
+    "claimed": false,
+    "periodKey": "2026-W13"
+  },
+  {
+    "missionId": "weekly_community",
+    "address": "0x45fab11f7f5d870e5ee01c7536e0289059d80d18060e79839ef8f2bc3e0b2bb5",
+    "progress": 10,
+    "completed": true,
+    "claimed": false,
+    "periodKey": "2026-W13"
+  },
+  {
+    "missionId": "weekly_top10",
+    "address": "0x45fab11f7f5d870e5ee01c7536e0289059d80d18060e79839ef8f2bc3e0b2bb5",
+    "progress": 1,
+    "completed": true,
+    "claimed": false,
+    "periodKey": "2026-W13"
+  },
+  {
+    "missionId": "daily_first_bet",
+    "address": "0x99816d7f188be4b3a9c004e42526cffb6fe34097b957b0ddd5d0f4d70ddf9d2b",
+    "progress": 1,
+    "completed": true,
+    "claimed": false,
+    "periodKey": "2026-03-26"
+  },
+  {
+    "missionId": "daily_consistent_crewmate",
+    "address": "0x99816d7f188be4b3a9c004e42526cffb6fe34097b957b0ddd5d0f4d70ddf9d2b",
+    "progress": 0,
+    "completed": false,
+    "claimed": false,
+    "periodKey": "2026-03-26"
+  },
+  {
+    "missionId": "daily_risk_taker",
+    "address": "0x99816d7f188be4b3a9c004e42526cffb6fe34097b957b0ddd5d0f4d70ddf9d2b",
+    "progress": 0,
+    "completed": false,
+    "claimed": false,
+    "periodKey": "2026-03-26"
+  },
+  {
+    "missionId": "daily_comeback",
+    "address": "0x99816d7f188be4b3a9c004e42526cffb6fe34097b957b0ddd5d0f4d70ddf9d2b",
+    "progress": 0,
+    "completed": false,
+    "claimed": false,
+    "periodKey": "2026-03-26"
+  },
+  {
+    "missionId": "daily_vote",
+    "address": "0x99816d7f188be4b3a9c004e42526cffb6fe34097b957b0ddd5d0f4d70ddf9d2b",
+    "progress": 1,
+    "completed": true,
+    "claimed": false,
+    "periodKey": "2026-03-26"
+  },
+  {
+    "missionId": "weekly_dedicated",
+    "address": "0x99816d7f188be4b3a9c004e42526cffb6fe34097b957b0ddd5d0f4d70ddf9d2b",
+    "progress": 1,
+    "completed": false,
+    "claimed": false,
+    "periodKey": "2026-W13"
+  },
+  {
+    "missionId": "weekly_whale",
+    "address": "0x99816d7f188be4b3a9c004e42526cffb6fe34097b957b0ddd5d0f4d70ddf9d2b",
+    "progress": 50000000,
+    "completed": false,
+    "claimed": false,
+    "periodKey": "2026-W13"
+  },
+  {
+    "missionId": "weekly_streak",
+    "address": "0x99816d7f188be4b3a9c004e42526cffb6fe34097b957b0ddd5d0f4d70ddf9d2b",
+    "progress": 0,
+    "completed": false,
+    "claimed": false,
+    "periodKey": "2026-W13"
+  },
+  {
+    "missionId": "weekly_community",
+    "address": "0x99816d7f188be4b3a9c004e42526cffb6fe34097b957b0ddd5d0f4d70ddf9d2b",
+    "progress": 1,
+    "completed": false,
+    "claimed": false,
+    "periodKey": "2026-W13"
+  },
+  {
+    "missionId": "weekly_top10",
+    "address": "0x99816d7f188be4b3a9c004e42526cffb6fe34097b957b0ddd5d0f4d70ddf9d2b",
+    "progress": 1,
+    "completed": true,
+    "claimed": false,
+    "periodKey": "2026-W13"
+  }
+]
