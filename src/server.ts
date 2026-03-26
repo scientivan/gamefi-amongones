@@ -13,7 +13,7 @@ app.use(express.json());
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: "*",
+    origin: process.env.FRONTEND_URL, // Allow all origins for simplicity; adjust in production
     methods: ["GET", "POST"],
   },
 });
@@ -69,7 +69,11 @@ const game = new GameEngine(
     const bettors = await contractClient.getBettorsForGame(numericId);
     if (bettors.length === 0) return;
 
-    const changed = streakService.onGameSettled(gameObjectId, winningTeam, bettors);
+    const changed = streakService.onGameSettled(
+      gameObjectId,
+      winningTeam,
+      bettors,
+    );
     for (const addr of changed) {
       const rec = streakService.getStreak(addr);
       io.to(SIM_GAME_ID).emit("streak_update", rec);
@@ -92,7 +96,6 @@ const game = new GameEngine(
 // Start the automation immediately
 game.startAutomatedLoop();
 
-
 import { moltbookService } from "./services/MoltbookService";
 
 // ── REST API ──────────────────────────────────────────────────────────────────
@@ -109,12 +112,15 @@ app.get("/api/missions/:address", async (req, res) => {
   await missionService.syncProgressFromChain(req.params.address);
   const missions = missionService.getMissions(req.params.address);
   // Serialize BigInt reward as string for JSON
-  res.json(missions.map(m => ({ ...m, reward: m.reward.toString() })));
+  res.json(missions.map((m) => ({ ...m, reward: m.reward.toString() })));
 });
 
 app.post("/api/missions/:address/claim/:missionId", async (req, res) => {
   try {
-    const result = await missionService.claimMission(req.params.address, req.params.missionId);
+    const result = await missionService.claimMission(
+      req.params.address,
+      req.params.missionId,
+    );
     res.json(result);
   } catch (err: any) {
     res.status(400).json({ error: err.message });
