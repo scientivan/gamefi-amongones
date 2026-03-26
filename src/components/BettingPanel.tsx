@@ -301,7 +301,7 @@ export function BettingPanel({
       const resolved = await resolveTransaction(tx);
       setIsPreparing(false);
       executePlaceBet(
-        { transaction: resolved },
+        { transaction: resolved as any },
         {
           onSuccess: () => {
             if (onChainGameId && address)
